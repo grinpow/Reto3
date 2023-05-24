@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+h1, h2, h3, h4, h5, p, a, button{
+    font-family: 'Rubik', sans-serif;
+}
+
+h1, h2, h3, h4, h5, a{
+    color: #393e5b;
+}
+
+p{
+    color: #b8b9bc;
+}
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box; 
+}
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.menu div{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.menu a{
+    text-decoration: none;
+}
+.menu button{
+    border: none;
+    background-color: #fb5859;
+    color: white;
+    padding: 10px 20px 10px 20px ;
+    border-radius: 5px;
+    box-shadow: 0 15px 15px 0 #f2f6f9;
+   /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;*/
+}
+.principal{
+    display: flex;
+    align-items: center;
+    height: calc( 100vh - 76px);
+    padding: 0 20px 0 20px;
+}
+
+.principal h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.principal p{
+    font-size: 16px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.btn{
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 15px 0 #f2f6f9;
+}
+.btn-primary{
+    background-color: #5168da;
+    color: white;
+    margin-right: 20px;
+}
+
+.feature{
+    padding: 30px;
+    height: 50vh;
+}
+
+.feature h2{
+    font-size: 25px;
+    text-align: center;
+}
+.feature p{
+    width: 40%;
+    text-align: center;
+    margin: 20px auto;
+}
+.feature button{
+    border: none;
+    padding: 15px 25px 15px 25px ;
+    background-color: white;
+    border-bottom: 2px solid gray;
+}
+.feature button:hover{
+    border-bottom: 2px solid #db4a4a;
+}
+.containerButtons{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    padding: 0 20px 0 20px;
+
+}
+
+.content h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+    width: 80%;
+    margin-left: 60px;
+
+}
+
+.content p{
+    font-size: 16px;
+    width: 80%;
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+
+
+
+.contentButton{
+    background-color: #5168da;
+    color: white;
+    margin-left: 60px;
+
+
+}
+
+.download{
+    padding: 50px 0px 50px 0px;
+}
+
+.download h4{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.download p{
+
+    width: 40%;
+    text-align: center;
+    margin: 20px auto;
+
+}
+
+.cartas{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
