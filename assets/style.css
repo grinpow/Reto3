@@ -81,8 +81,8 @@ p{
 }
 
 .feature{
-    padding: 30px;
-    height: 50vh;
+    padding: 0px 0px 60px 0px;
+    
 }
 
 .feature h2{
@@ -132,6 +132,9 @@ p{
     margin-left: 60px;
 }
 
+.titulo{
+    text-align: center;
+}
 
 
 .contentButton{
@@ -157,12 +160,107 @@ p{
     width: 40%;
     text-align: center;
     margin: 20px auto;
-
+   
 }
 
 .cartas{
     display: flex;
     justify-content: space-around;
     text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+
+}
+
+.downloadButton{
+
+    background-color: #5168da;
+    color: white;
+    
+}
+
+.chrome{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background: #ffffff;
+    padding: 30px 20px 30px 20px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.firefox{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background: #ffffff;
+    padding: 30px 20px 30px 20px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.opera{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background: #ffffff;
+    padding: 30px 20px 30px 20px;
+    margin-top: 120px;
+}
+
+ .preguntas h4{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.preguntas p{
+
+    text-align: center;
+    margin: 20px auto;
+   
+}
+
+.parrafo{
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+
+#miParrafo {
+    padding-top:20px;
+}
+ 
+.footer{
+    text-align: center;
+    padding-top: 30px;
+    background: #5168da;
+}
+
+form{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+input[type=email]{
+    border-radius: 4px;
+    padding:8px;
+    padding-right: 40px;
+}
+
+.downloadbutton{
+background: #ffffff;
+padding:8px;
+border: none;
+}
+
+.footer h2{
+    color: #ffffff;
+    padding-top: 20px;
+    font-size: 35px;
+}
+
+.footer h3{
+    color: #ffffff;
+    padding-top: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 
 }
