@@ -86,13 +86,14 @@ p{
 }
 
 .feature h2{
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
 }
 .feature p{
     width: 40%;
     text-align: center;
     margin: 20px auto;
+    padding-bottom: 20px;
 }
 .feature button{
     border: none;
@@ -229,8 +230,10 @@ p{
  
 .footer{
     text-align: center;
-    padding-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     background: #5168da;
+
 }
 
 form{
@@ -240,13 +243,13 @@ form{
 
 input[type=email]{
     border-radius: 4px;
-    padding:8px;
+    padding:12px;
     padding-right: 40px;
 }
 
 .downloadbutton{
 background: #ffffff;
-padding:8px;
+padding:12px;
 border: none;
 }
 
@@ -264,3 +267,34 @@ border: none;
     letter-spacing: 3px;
 
 }
+.socialmedia{
+    background: #393e5b;
+    display: flex;
+    justify-content:flex-start;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+ .socialmedia a {
+    color: #ffffff;
+ }
+
+ .socialmedia div{
+    display: flex;
+    gap: 30px;
+    margin-left:30px;
+
+ }
+
+.logo {
+    margin-left: 150px;
+}
+
+.redesfb{
+    padding-left: 510px;
+}
+
+.redestw{
+    padding-left: 20px;
+}
+
+
